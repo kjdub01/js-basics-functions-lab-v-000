@@ -4,6 +4,6 @@ function distanceFromHqInBlocks(blockNumber) {
     return blockNumber - 42
   }
   else {
-    return blockNumber
+    return 42 - blockNumber
   }
 }
