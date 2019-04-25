@@ -14,6 +14,8 @@ function distanceFromHqInFeet(blockNumber) {
 
 function distanceTraveledInFeet(start, end) {
   if (start < end) {
-    return end - start
+    return end - start * 264;
   } 
+  else
+  return start - end * 264;
 }
