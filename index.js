@@ -24,5 +24,5 @@ function calculatesFarePrice(start, destination) {
   const distance = distanceTravelledInFeet(start, destination)
   if distance <= 400) {
     return ""
-  } else if (400 <  > 1999))
+  } else if (distance > 400 && distance < 1999)
 }
